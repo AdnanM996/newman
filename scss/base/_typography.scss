@@ -29,3 +29,11 @@ body {
         background-color: $color-quaternary;
     }
 }
+
+.hero {
+    & h1 {
+        color: $color-primary;
+        font-size: 5rem;
+        font-family: $font-primary;
+    }
+}
