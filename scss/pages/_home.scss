@@ -13,5 +13,14 @@
         align-items: center;
         height: 100%;
     }
+}
 
+.project-highlights {
+    padding: $padding-extra-large;
+
+    & .wrapper {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
