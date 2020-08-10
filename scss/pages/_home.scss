@@ -32,3 +32,68 @@
 .related-content {
     padding: $padding-extra-large;
 }
+
+.quote-link {
+    padding: $padding-extra-large;
+    width: 100%;
+    height: 100%;
+
+    &__image {
+        height: 100%;
+        width: 100%;
+        background-image: url(../../imgs/kam-idris-_HqHX3LBN18-unsplash.jpg);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__text {
+        background-color: $color-primary;
+        width: 100%;
+        margin: 0 auto;
+        & .wrapper {
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
+            padding: $padding-medium;
+        }
+
+        & h2 {
+            margin-bottom: 5rem;
+            line-height: 2;
+        }
+
+        & ul {
+            list-style: none;
+        }
+
+        & li {
+            font-size: 1.4rem;
+            &:not(:last-child) {
+                margin-bottom: 1rem;
+            }
+        }
+
+        & .cta {
+            background-color: $color-quaternary;
+            border: 2px solid $color-quaternary;
+            color: $color-primary;
+            font-size: 2.4rem;
+            width: 100%;
+            transition: all .5s ease;
+            text-align: center;
+            padding: 1.6rem 0rem;
+            margin-top: 7.5rem;
+
+            &:hover {
+                background-color: $color-primary;
+                color: $color-quaternary;
+            }
+            &::after,
+            &::before {
+                display: none;
+            }
+        }
+    }
+}

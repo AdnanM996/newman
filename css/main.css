@@ -237,3 +237,49 @@ h6 {
 
 .related-content {
   padding: 10rem 0rem; }
+
+.quote-link {
+  padding: 10rem 0rem;
+  width: 100%;
+  height: 100%; }
+  .quote-link__image {
+    height: 100%;
+    width: 100%;
+    background-image: url(../../imgs/kam-idris-_HqHX3LBN18-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .quote-link__text {
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto; }
+    .quote-link__text .wrapper {
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: column;
+      padding: 5rem 0rem; }
+    .quote-link__text h2 {
+      margin-bottom: 5rem;
+      line-height: 2; }
+    .quote-link__text ul {
+      list-style: none; }
+    .quote-link__text li {
+      font-size: 1.4rem; }
+      .quote-link__text li:not(:last-child) {
+        margin-bottom: 1rem; }
+    .quote-link__text .cta {
+      background-color: #0049e2;
+      border: 2px solid #0049e2;
+      color: #fff;
+      font-size: 2.4rem;
+      width: 100%;
+      transition: all .5s ease;
+      text-align: center;
+      padding: 1.6rem 0rem;
+      margin-top: 7.5rem; }
+      .quote-link__text .cta:hover {
+        background-color: #fff;
+        color: #0049e2; }
+      .quote-link__text .cta::after, .quote-link__text .cta::before {
+        display: none; }
