@@ -35,8 +35,6 @@
 
 .quote-link {
     padding: $padding-extra-large;
-    width: 100%;
-    height: 100%;
 
     &__image {
         height: 100%;
@@ -94,6 +92,39 @@
             &::before {
                 display: none;
             }
+        }
+    }
+}
+
+.bottom-links {
+
+    & .wrapper {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.link {
+    padding: 3.6rem 5rem;
+    border-top: 1px solid rgba($color-tertiary, .2);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .3s cubic-bezier(0.39, 0.575, 0.565, 1);
+
+    & .fa-arrow-right {
+        transition: all .3s cubic-bezier(0.39, 0.575, 0.565, 1);  
+    }
+
+    &:hover {
+        color: $color-primary;
+        background-color: $color-quaternary;
+
+        & .fa-arrow-right {
+            color: $color-primary;
         }
     }
 }
