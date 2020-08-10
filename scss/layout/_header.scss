@@ -1,0 +1,28 @@
+.header {
+    padding: $padding-small;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 5;
+    width: 100%;
+
+    & .wrapper {
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.menu {
+    height: 1.7rem;
+    width: 5rem;
+
+    &__line {
+        height: .35rem;
+        width: 100%;
+        background-color: $color-tertiary;
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+}
