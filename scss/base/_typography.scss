@@ -34,7 +34,14 @@ h2 {
 }
 
 h3 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
+}
+
+h6 {
+    color: $color-quaternary;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .logo {
@@ -69,4 +76,10 @@ h3 {
     &--text {
         margin-bottom: 7.5rem;
     }
+}
+
+.fa-arrow-right {
+    color: $color-secondary;
+    font-size: 2.2rem;
+    margin-left: 5rem;
 }
