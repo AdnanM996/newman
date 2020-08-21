@@ -1,0 +1,30 @@
+.footer {
+    &--form {
+        width: 100%;
+        margin-top: 5rem;
+
+        &__bottom {
+
+            & label {
+                font-size: 1.4rem;
+                position: absolute;
+            }
+    
+            & input[type="email"] {
+                background-color: transparent;
+                border: none;
+                border-bottom: 2px solid $color-primary;
+                color: $color-primary;
+                outline-width: 0;
+                width: 100%;
+                position: relative;
+                transition: all .5s ease;
+    
+            }
+
+            & input[type="email"] label {
+                bottom: 2.5rem;
+            }
+        }
+    }
+}
